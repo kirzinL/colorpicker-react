@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+  background-color: #d6d6d6;
+}
+.footer{
+  margin-top: 50px;
+}
+.main--contianer{
+  display: flex;
+  flex-direction: column;
+}
+.text-pick{
+  font-size: 1.4rem;
+}
+ .color--bg{
+    width: 500px;
+    height: 500px;
+    border: solid;
+    border-radius: 10px;
+    box-shadow:10px 10px ;
+  }
+  .Color--picker{
+    width: 100px;
+    height: 40px;
+    border: 3px solid;
+    border-radius: 8px;
+    box-shadow:10px 10px ;
+    transition: 0.5s;
+    outline: none;
+  }
+  .Color--picker:hover{
+    transition: 0.5s;
+    box-shadow:0 0 ;
+  }
+  .picker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
